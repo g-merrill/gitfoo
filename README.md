@@ -18,7 +18,7 @@ git log --oneline --graph --all --decorate
 git config --global alias.lg "log --oneline --graph --all --decorate"
 ```
 
-## 4- What did I change since my last commit?
+## 4- What have I changed since my last commit?
 
 ```bash
 git diff HEAD
@@ -30,7 +30,7 @@ git diff HEAD
 git reset --hard
 ```
 
-## 6- How do I change between EXISTING branches?
+## 6- How do I switch between EXISTING branches?
 
 ```bash
 git checkout somebranch
@@ -57,7 +57,7 @@ git checkout main       # if I want to merge commits into main
 git merge featurebranch # merges featurebranch commits into main
 ```
 
-## 10- How do I update my local branch with changes from GitHub?
+## 10- How do I update my local branch with commits from GitHub?
 
 ```bash
 git fetch             # makes local aware of changes in remote
