@@ -5,6 +5,7 @@
 ```bash
 git status
 ```
+
 ## 2- What does my commit history look like?
 
 ```bash
@@ -50,11 +51,11 @@ git stash
 git stash pop
 ```
 
-## 9- How do I MERGE a branch into another?
+## 9- How do I MERGE a feature branch into main?
 
 ```bash
-git checkout main       # if I want to merge commits into main
-git merge featurebranch # merges featurebranch commits into main
+git checkout main
+git merge featurebranch
 ```
 
 ## 10- How do I update my local branch with commits from GitHub?
