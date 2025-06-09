@@ -1,3 +1,3 @@
-let message = "banana"
+let message = "bananana"
 
 console.log(`${message} rules!`)
